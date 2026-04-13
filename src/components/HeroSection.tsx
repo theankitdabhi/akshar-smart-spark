@@ -21,7 +21,7 @@ const HeroSection = () => (
         Smart Technology Solutions
       </h1>
       <p className="text-lg md:text-xl text-charcoal-foreground/80 mb-8 max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
-        I.T. — Security — Automation — Communication
+        I.T. — Security — Automation — Communication — Audio/Video
       </p>
       <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
         <Button variant="gold" size="lg" asChild>
