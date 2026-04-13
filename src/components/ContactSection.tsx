@@ -25,7 +25,7 @@ const ContactSection = () => {
             <div className="flex gap-4">
               <MapPin className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
               <p className="text-muted-foreground text-sm">
-                201, Shivang Complex, Beside Gail Office, Urmi Road, Old Padra Road, Vadodara – 390020, Gujarat, India
+                Shivang Complex, Shop No. 4, 5, 6, Urmi Rd, Opp Gail Office, Punit Nagar Society, Vadodara, Gujarat 390007
               </p>
             </div>
             <div className="flex gap-4">
