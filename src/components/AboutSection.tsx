@@ -10,7 +10,7 @@ const AboutSection = () => (
             Akshar Enterprise
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-4">
-            Founded in Vadodara, Gujarat, Akshar Enterprise has been a trusted name in smart technology solutions for over 15 years. We deliver integrated I.T., Security, Automation, and Communication systems for homes, offices, and commercial establishments across India.
+            Founded in Vadodara, Gujarat, Akshar Enterprise has been a trusted name in smart technology solutions for over 15 years. We deliver integrated I.T., Security, Automation, Communication and Audio/Video systems for homes, offices, and commercial establishments across India.
           </p>
           <p className="text-muted-foreground leading-relaxed mb-4">
             Our mission is to simplify technology for our clients — providing end-to-end design, installation, and after-sales support so you can focus on what matters most. From structured cabling to intelligent lighting, we bring every element together seamlessly.
