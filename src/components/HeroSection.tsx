@@ -16,7 +16,7 @@ const HeroSection = () => (
     <div className="absolute inset-0 bg-charcoal/70" />
 
     <div className="relative z-10 container mx-auto px-4 text-center">
-      <p className="section-label !text-primary mb-4 animate-fade-in-up">Akshar Enterprise — Vadodara</p>
+      
       <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold text-charcoal-foreground mb-4 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
         Smart Technology Solutions
       </h1>
