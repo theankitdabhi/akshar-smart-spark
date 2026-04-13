@@ -17,7 +17,7 @@ const HeroSection = () => (
 
     <div className="relative z-10 container mx-auto px-4 text-center">
       
-      <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold text-charcoal-foreground mb-4 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
+      <h1 className="font-heading text-3xl md:text-5xl lg:text-6xl font-bold text-charcoal-foreground mb-4 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
         Smart Technology Solutions
       </h1>
       <p className="text-lg md:text-xl text-charcoal-foreground/80 mb-8 max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
