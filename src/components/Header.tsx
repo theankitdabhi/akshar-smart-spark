@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Phone, Menu, X } from "lucide-react";
-import logo from "@/assets/logo.png";
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -28,7 +27,7 @@ const Header = () => {
     >
       <div className="container mx-auto flex items-center justify-between h-16 md:h-20 px-4">
         <a href="#home" className="flex items-center gap-2">
-          <img src={logo} alt="Akshar Enterprise Logo" className="h-8 md:h-12 w-auto" />
+          
           <span className="font-heading font-bold text-xl md:text-2xl">
             <span className={scrolled ? "text-foreground" : "text-primary-foreground"}>Akshar</span>{" "}
             <span className="text-primary">Enterprise</span>
