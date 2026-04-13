@@ -44,9 +44,9 @@ const ContactSection = () => {
             <div className="mt-6 rounded-lg overflow-hidden border border-border">
               <iframe
                 title="Akshar Enterprise Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.6!2d73.1710!3d22.3039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc5e7a1b8b0c1%3A0x9f5a3e5b1d6e5c1a!2sShivang%20Complex%2C%20Urmi%20Rd%2C%20Punit%20Nagar%20Society%2C%20Vadodara%2C%20Gujarat%20390007!5e0!3m2!1sen!2sin!4v1"
+                src="https://maps.google.com/maps?q=Akshar%20Enterprise%2C%20201%20Shivang%20Complex%2C%20Urmi%20Road%2C%20Society%2C%20beside%20GAIL%2C%20Punit%20Nagar%2C%20Akota%2C%20Vadodara%2C%20Gujarat%20390020&z=14&output=embed"
                 width="100%"
-                height="220"
+                height="320"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
