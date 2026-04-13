@@ -1,4 +1,4 @@
-import heroBg from "@/assets/hero-bg.jpg";
+import aboutImg from "@/assets/about-img.jpg";
 
 const AboutSection = () => (
   <section id="about" className="py-20 md:py-28 bg-background">
@@ -22,7 +22,7 @@ const AboutSection = () => (
 
         <div className="rounded-lg overflow-hidden shadow-lg">
           <img
-            src={heroBg}
+            src={aboutImg}
             alt="Smart technology infrastructure"
             className="w-full h-80 md:h-96 object-cover"
             loading="lazy"
