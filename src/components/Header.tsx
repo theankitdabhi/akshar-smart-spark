@@ -40,7 +40,7 @@ const Header = () => {
               key={l.href}
               href={l.href}
               className={`text-sm font-medium transition-colors hover:text-primary ${
-                scrolled ? "text-foreground" : "text-primary-foreground"
+                scrolled ? "text-charcoal-foreground" : "text-primary-foreground"
               }`}
             >
               {l.label}
@@ -52,7 +52,7 @@ const Header = () => {
           <a
             href="tel:+919824037776"
             className={`flex items-center gap-1.5 text-sm font-medium ${
-              scrolled ? "text-foreground" : "text-primary-foreground"
+              scrolled ? "text-charcoal-foreground" : "text-primary-foreground"
             }`}
           >
             <Phone className="w-4 h-4 text-primary" />
@@ -62,7 +62,7 @@ const Header = () => {
 
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className={`md:hidden ${scrolled ? "text-foreground" : "text-primary-foreground"}`}
+          className={`md:hidden ${scrolled ? "text-charcoal-foreground" : "text-primary-foreground"}`}
         >
           {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
         </button>
