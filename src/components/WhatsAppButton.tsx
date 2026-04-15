@@ -2,7 +2,7 @@ import { MessageCircle } from "lucide-react";
 
 const WhatsAppButton = () => {
   const phoneNumber = "919824037776"; // Format without + for WhatsApp API
-  const message = encodeURIComponent("Hi, I'm interested in your fire safety and security services.");
+  const message = encodeURIComponent("Hi, I'm interested in your Automation and Security services.");
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
 
   return (
