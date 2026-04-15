@@ -29,7 +29,7 @@ const Header = () => {
         <a href="#home" className="flex items-center gap-2">
           
           <span className="font-heading font-bold text-xl md:text-2xl">
-            <span className={scrolled ? "text-foreground" : "text-primary-foreground"}>Akshar</span>{" "}
+            <span className={scrolled ? "text-charcoal-foreground" : "text-primary-foreground"}>Akshar</span>{" "}
             <span className="text-primary">Enterprise</span>
           </span>
         </a>
