@@ -172,8 +172,29 @@ const HeroSection = () => {
           </span>
         </h1>
 
+        {/* Prominent CTA buttons */}
+        <div className="mt-10 flex flex-col sm:flex-row gap-4 reveal reveal-delay-2">
+          <Button variant="gold" size="lg" asChild className="group h-14 px-8 text-base">
+            <a href="#services">
+              Explore Services
+              <ArrowUpRight className="w-5 h-5 transition-transform group-hover:rotate-45" />
+            </a>
+          </Button>
+          <Button
+            variant="outline"
+            size="lg"
+            asChild
+            className="group h-14 px-8 text-base border-charcoal-foreground/30 bg-charcoal-foreground/5 backdrop-blur-sm text-charcoal-foreground hover:bg-charcoal-foreground hover:text-charcoal"
+          >
+            <a href="#contact">
+              Contact Us
+              <ArrowUpRight className="w-5 h-5 transition-transform group-hover:rotate-45" />
+            </a>
+          </Button>
+        </div>
+
         {/* Active solution card showcase */}
-        <div className="mt-10 grid md:grid-cols-12 gap-8 items-end reveal reveal-delay-2">
+        <div className="mt-14 grid md:grid-cols-12 gap-8 items-end reveal reveal-delay-3">
           {/* Left: animated description */}
           <div className="md:col-span-6">
             <div
@@ -196,23 +217,6 @@ const HeroSection = () => {
               <p className="text-charcoal-foreground/70 text-base md:text-lg leading-relaxed max-w-md">
                 {current.desc}
               </p>
-            </div>
-
-            <div className="mt-8 flex flex-col sm:flex-row gap-3">
-              <Button variant="gold" size="lg" asChild className="group">
-                <a href="#services">
-                  Explore Services
-                  <ArrowUpRight className="w-4 h-4 transition-transform group-hover:rotate-45" />
-                </a>
-              </Button>
-              <Button
-                variant="outline"
-                size="lg"
-                asChild
-                className="border-charcoal-foreground/30 bg-transparent text-charcoal-foreground hover:bg-charcoal-foreground hover:text-charcoal"
-              >
-                <a href="#contact">Get in Touch</a>
-              </Button>
             </div>
           </div>
 
