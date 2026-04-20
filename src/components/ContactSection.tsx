@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { MapPin, Mail, Phone, ArrowUpRight } from "lucide-react";
+import { MapPin, Phone, ArrowUpRight } from "lucide-react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const ContactSection = () => {
   const [form, setForm] = useState({ name: "", email: "", phone: "", message: "" });
   const headerRef = useScrollReveal<HTMLDivElement>();
   const leftRef = useScrollReveal<HTMLDivElement>();
-  const rightRef = useScrollReveal<HTMLDivElement>();
+  const rightRef = useScrollReveal<HTMLFormElement>();
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -68,7 +68,7 @@ const ContactSection = () => {
             </div>
           </div>
 
-          <form ref={rightRef as React.RefObject<HTMLFormElement>} onSubmit={handleSubmit} className="reveal reveal-delay-2 md:col-span-7 space-y-6">
+          <form ref={rightRef} onSubmit={handleSubmit} className="reveal reveal-delay-2 md:col-span-7 space-y-6">
             {[
               { name: "name", label: "Name", type: "text" },
               { name: "email", label: "Email", type: "email" },
